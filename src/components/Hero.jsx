@@ -10,7 +10,7 @@ const Hero =() => {
                 <div className="flex justify-center items-center">
                     <p className="md:text-5xl sm:text-4sml text-xl font-bold pt-4">Fast, flexible financing for</p>
                     <ReactTyped 
-                     className="md:text-5xl sm:text-4sml text-xl font-bold pt-4 pl-2"
+                     className="md:text-5xl sm:text-4xl text-xl font-bold pt-4 pl-2"
                     strings={[
                         'PA',
                         'PFD',
@@ -22,7 +22,7 @@ const Hero =() => {
 
                 </div>
                 <p className="md:text-xl text-l font-bold text-gray-400 pt-4" >Join the data revolution and transform your financial landscape today. Explore our platform and discover how data can revolutionize your financial future.</p>
-                <button className="bg-[#3C0753] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">Get Started</button>
+                <button className="bg-[#3C0753] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white">Get Started</button>
             </div>
 
         </div>
