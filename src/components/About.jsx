@@ -6,7 +6,7 @@ function About() {
         <div className="w-full bg-[#030637] py-16 px-4">
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
                 <img className="w-[600px] mx-auto my-4" src={aboutImage} alt="/" />
-                <div className="text-white flex flex-col justify-center">
+                <div className="text-white flex flex-col justify-center px-4">
                     <p className="text-[#910A67] uppercase my-2 font-bold">transformative power of data in the realm of finance</p>
                     <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">Empowering Financial Futures Through Data Excellence</h1>
                     <p className="my-4 text-justify">
