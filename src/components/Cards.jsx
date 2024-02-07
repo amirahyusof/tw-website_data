@@ -7,7 +7,7 @@ function Cards(){
     return(
         <div className="w-full py-[10rem] px-4 bg-[#030637]">
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
-                <div className="w-full shadow-lg text-white border flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 ">
+                <div className="w-full shadow-xl text-white border flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 ">
                     <img className="w-24 mx-auto mt-[-3rem] bg-white rounded-3xl" src={Explorer} alt="/" />
                     <h2 className="text-2xl font-bold text-center py-8">Explorer's Bundle</h2>
                     <p className="text-center text-4xl font-bold">$40</p>
@@ -22,8 +22,8 @@ function Cards(){
                     <button className="bg-[#910A67] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white">Start Trial</button>
                 </div>
 
-                <div className="w-full shadow-lg text-white border flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 ">
-                    <img className="w-28 mx-auto mt-[-3rem] bg-white rounded-2xl" src={Advance} alt="/" />
+                <div className="w-full shadow-xl text-white bg-black-100 border flex flex-col p-4  md:my-0 my-4 rounded-lg hover:scale-105 duration-300 ">
+                    <img className="w-28 mx-auto mt-[-3rem] bg-white rounded-2xl bg-transparent" src={Advance} alt="/" />
                     <h2 className="text-2xl font-bold text-center py-8">Pro Analyst </h2>
                     <p className="text-center text-4xl font-bold">$80</p>
                     <div className="text-center font-medium">
@@ -40,7 +40,7 @@ function Cards(){
 
                 </div>
 
-                <div className="w-full shadow-lg text-white border flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 ">
+                <div className="w-full shadow-xl text-white border flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 ">
                     <img className="w-28 mx-auto mt-[-3rem] bg-white rounded-2xl" src={Executive} alt="/" />
                     <h2 className="text-2xl font-bold text-center py-8">Executive Suite</h2>
                     <p className="text-center text-4xl font-bold">$120</p>
