@@ -3,7 +3,7 @@ import aboutImage from "../assets/about-img.png"
 
 function About() {
     return(
-        <div className="w-full bg-[#030637] py-16 px-4">
+        <div className="w-full bg-[#030637] py-16 px-4" id="about">
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
                 <img className="w-[600px] mx-auto my-4" src={aboutImage} alt="/" />
                 <div className="text-white flex flex-col justify-center px-4">
