@@ -1,6 +1,5 @@
 import React from "react"; 
 import {RiMenu3Fill, RiCloseFill } from 'react-icons/ri';
-import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
